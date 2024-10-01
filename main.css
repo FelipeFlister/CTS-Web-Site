@@ -9,12 +9,44 @@
     object-fit: cover; /* Fixa a imagem dentro do contêiner */
 }
 .logo{
-    margin: 15rem 0 0 15rem;
-    height: 20rem;
-    width: 20rem;
+    margin: 15rem 0 0 16rem;
+    height: 25rem;
+    width: 25rem;
     position: absolute;
     z-index: 1;
 }
 .logo{
     color: white;
 }
+.nome-2{
+    font-family: BT;
+    font-size: 10rem;
+    font-weight: 600;
+}
+.nome-1, .nome-2 {
+    position: absolute; /* Adicionando posição absoluta */
+    color: white; /* Certificando que a cor é branca */
+    z-index: 2; /* Mais alto para estar acima da imagem de fundo */
+    font-family: RQ; 
+}
+.nome-1{
+    top: 52%;
+    font-weight: 50;
+    font-size: 2.15rem;
+    margin-left: 13rem;
+    margin-bottom: -4rem;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .4rem;
+    
+}
+.nome-2{
+    top: 54%;
+    font-weight: 900;
+    font-size: 7.5rem;
+    margin-left: 13rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+/*-------------------------------------------------------------------------*/

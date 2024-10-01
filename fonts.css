@@ -4,3 +4,70 @@
     font-weight: 100;
     font-style: normal;
 }
+@font-face {
+    font-family: 'BT1';
+    src: url('fonts/batman_forever/batmfa__.ttf') format('woff2');
+}
+@font-face {
+    font-family: 'BT2';
+    src: url('fonts/batman_forever/batmfo__.ttf') format('woff2');
+}
+@font-face {
+    font-family: 'BS1';
+    src: url('fonts/boston/BOSTON\ CAPS.otf') format('woff2'),
+}
+@font-face {
+    font-family: 'BS2';
+    src: url('fonts/boston/BOSTON\ CAPS.ttf') format('woff2'),
+}
+@font-face {
+    font-family: 'DR';
+    src: url('fonts/droid/Droid\ 1997.otf') format('woff2'),
+}
+@font-face {
+    font-family: 'EB';
+    src: url('fonts/extros_backstage/Extros\ Backstage.ttf') format('woff2'),
+}
+@font-face {
+    font-family: 'FE1';
+    src: url('fonts/future_edge/Future\ Edge.otf') format('woff2'),
+}
+@font-face {
+    font-family: 'FE2';
+    src: url('fonts/future_edge/Future\ Edge.ttf') format('woff2'),
+}
+@font-face {
+    font-family: 'FE3';
+    src: url('fonts/future_edge/Future\ Edge\ Italic.otf') format('woff2'),
+}
+@font-face {
+    font-family: 'FE4';
+    src: url('fonts/future_edge/Future\ Edge\ Italic.ttf') format('woff2'),
+}
+@font-face {
+    font-family: 'OT1';
+    src: url('fonts/origin_tech/OriginTech\ personal\ use.otf') format('woff2'),
+}
+@font-face {
+    font-family: 'OT2';
+    src: url('fonts/origin_tech/OriginTech\ personal\ use.ttf') format('woff2'),
+}
+@font-face {
+    font-family: 'RC';
+    src: url('fonts/reboot_crush/Reboot\ Crush.ttf') format('woff2'),
+}
+@font-face {
+    font-family: 'RQ';
+    src: url('fonts/request/Request.otf') format('woff2'),
+}
+@font-face {
+    font-family: 'SL';
+    src: url('fonts/slant/SLANT.TTF') format('woff2'),
+}
+@font-face {
+    font-family: 'TR';
+    src: url('fonts/transformers_movie/Transformers\ Movie.ttf') format('woff2'),
+}
+
+
+
