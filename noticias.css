@@ -1,0 +1,56 @@
+/* .caixas{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.caixa h2{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFB300;
+    width: 23.7rem;
+    text-align: left;
+    font-family: AC;
+    color: white;
+    padding: 3.5rem .9rem;
+}
+.caixa span{
+    position: absolute;
+    top: 157.8%;
+    color: white;
+    font-family: ACEL;
+    margin-left: 1rem;
+}
+
+#caixa-1{
+    margin-left: 4rem;
+}
+#caixa-2{
+    margin-left: 2rem;
+}
+#caixa-3{
+    margin-left: 1rem;
+} 
+.confira{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.36);
+    color: white;
+    border: white solid .1rem;
+    text-transform: uppercase;
+    font-family: JMM;
+    padding: .2rem 1.5rem;
+    top: 166.5%;
+    margin-left: 1rem;
+    
+} 
+.img-noticia{
+    height: 15rem;
+    width: 24rem;
+}
+.confira:hover{
+    background-color: white;
+    color: #FFB300;
+}
+.img1{
+    margin-left: 4rem;
+} */

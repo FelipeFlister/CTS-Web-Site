@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="noticias.css">
+    <link rel="stylesheet" href="ajuda.css">
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,58 +53,66 @@
                 <img src="assets/img/ImgTaiga.png" alt="" class="fundo">  
                 <span class="nome-1">Return of the</span>
                 <span class="nome-2">Eden</span>
-                <p>Prepare-se para explorar o paraíso</p>
-                <p>devastado do planeta Aqua.</p>
-                <button>Teste o Jogo</button>
-                <button>Visite o Site</button>
+                <p class="sinopse-1">Prepare-se para explorar o paraíso</p>
+                <p class="sinopse-2">devastado do planeta Aqua.</p>
+                <div class="btns">
+                    <button class="btn-teste">Teste o Jogo</button>
+                    <button class="btn-visite">Visite o Site</button>
+                </div>
             </div>
-        </section>
-        
-        <section>
-            <span>últimas notícias</span>
+        </section>        
+        <!-- <section>
+            <span class="titulo-noticias">últimas notícias</span>
             <hr>
             <div>
-                <ul>
+                <ul class="caixas">
+                    <img src="assets/img/ImgTaiga.png" alt="" class="img-noticia" id="img1">
+                    <div class="caixa" id="caixa-1">
+                    <span>02/10/24</span>
+                    <h2>Jogo Lançado!</h2>
+                    <button class="confira">Confira</button>
+                    </div>                        
+                    
                     <li>
-                        <img src="assets/img/ImgTaiga.png" alt="">
-                        <div>
-                            <span></span>
-                            <h2>Jogo Lançado!</h2>
-                            <button>Confira</button>
-                        </div>                        
-                    </li>
-                    <li>
-                        <img src="assets/img/ImgPantano.png" alt="">
-                        <div>
-                            <span></span>
+                        <img src="assets/img/ImgPantano.png" alt="" class="img-noticia" id="img2">
+                        <div class="caixa" id="caixa-2">
+                            <span>02/10/24</span>
                             <h2>Novos Biomas Lançados!</h2>
-                            <button>Confira</button>
+                            <button class="confira">Confira</button>
                         </div>                      
                     </li>
                     <li>
-                        <img src="assets/img/ImgCidade.png" alt="">
-                        <div>
-                            <span></span>
+                        <img src="assets/img/ImgCidade.png" alt="" class="img-noticia" id="img3">
+                        <div class="caixa" id="caixa-3">
+                            <span>02/10/24</span>
                             <h2>IAs Aprimoradas!</h2>
-                            <button>Confira</button>
+                            <button class="confira">Confira</button>
                         </div>                      
                     </li>
-                    <button>Ver tudo</button>
+                    <li>
+                        <img src="assets/img/ImgCidade.png" alt="" class="img-noticia" id="img4">
+                        <div class="caixa" id="caixa-4">
+                            <span>02/10/24</span>
+                            <h2>IAs Aprimoradas!</h2>
+                            <button class="confira">Confira</button>
+                        </div>                      
+                    </li>
                 </ul>
+                <button>Ver tudo</button>
             </div>
-        </section>
+        </section> -->
         <section>
-            <img src="assets/img/ImgDoacao.jpg" alt="">
-            <h2>Nos Ajudem</h2>
-            <p>Para que possamos continuar a desenvolver nossas obras, precisamos de sua ajuda!</p>
-            <button>
-                <img src="assets/img/LogDoar.png" alt="">
-                Ajude Doando
-            </button>
-            <button>
-                <img src="assets/img/LogDiscord.png" alt="">
-                Ajude no Discord
-            </button>
+            <img src="assets/img/ImgDoacao.jpg" alt="" id="img-doacao">
+            <div>
+                <h2 id="titulo">Nos Ajudem</h2>
+                <p id="texto-ajuda">Para que possamos continuar a desenvolver nossas obras, precisamos de sua ajuda!</p>
+                <div id="btn-ajuda">
+                    <button>Ajude Doando</button>
+                    <img src="assets/img/LogDoar.png" alt="" id="img-doar">
+                    <button>Ajude no Discord</button>
+                    <img src="assets/img/LogDiscord.png" alt="" id="img-discord">
+                </div>
+            </div>
         </section>
     </main>
     <footer>
