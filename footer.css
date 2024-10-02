@@ -2,6 +2,8 @@ footer{
     background-color: black;
     margin-top: -.2rem;
     color: white;
+    height: 100%;
+    width: 100%;
 }
 #textura{
     background-image: url(assets/img/ImgTecnologia.png);
@@ -70,4 +72,54 @@ footer{
 #link-3{
     font-family: JMM;
     color: rgba(255, 255, 255, 0.5);
+}
+#redes{
+    position: absolute;
+    color: white;
+    font-family: JM;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90rem;
+    top: 215%;
+    row-gap: 1rem;
+}
+#redes img{
+    height: 3rem;
+    width: 3rem;
+}
+#logo-youtube img{
+    height: 3rem;
+    width: 4rem;
+    top: 210%;
+}
+#logos{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin-left: -1rem;
+}
+#logo-discord {
+    width: 5rem;
+}
+.loh-header{
+    align-items: center;
+}
+#log-dragao-f{
+    height: 6rem;
+    width: 5rem;
+    margin: 1rem 0;
+}
+#log-cts-f{
+    height: 5rem;
+    width: 11rem;
+    margin: 1rem 0 4rem 1rem; 
+}
+#logo-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
 }
