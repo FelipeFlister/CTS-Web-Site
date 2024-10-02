@@ -43,9 +43,6 @@ nav{
     align-items: center;
     column-gap: 2rem;
 }
-.nav:hover{
-    color: white;
-}
 
 .conta{
     color: white;

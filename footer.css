@@ -1,0 +1,73 @@
+footer{
+    background-color: black;
+    margin-top: -.2rem;
+    color: white;
+}
+#textura{
+    background-image: url(assets/img/ImgTecnologia.png);
+    background-repeat: repeat-x;
+    background-size: 35rem 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+    transform: scaleY(-1);;
+}
+#col-jogos{
+    position: absolute;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    top: 215%;
+    row-gap: 1rem;
+}
+#nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#titulo-jogos{
+    font-family: JMEB;
+    font-weight: 120;
+    text-transform: uppercase;
+}
+#link-1{
+    font-family: JMM;
+    color: rgba(255, 255, 255, 0.5);
+}
+#col-grupo{
+    position: absolute;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 28rem;
+    top: 215%;
+    row-gap: 1rem;
+}
+#titulo-grupos{
+    font-family: JMEB;
+    font-weight: 120;
+    text-transform: uppercase;
+}
+#link-2{
+    font-family: JMM;
+    color: rgba(255, 255, 255, 0.5);
+}
+#col-ajudem{
+    position: absolute;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 46rem;
+    top: 215%;
+    row-gap: 1rem;
+}
+#titulo-ajudem{
+    font-family: JMEB;
+    font-weight: 120;
+    text-transform: uppercase;
+}
+#link-3{
+    font-family: JMM;
+    color: rgba(255, 255, 255, 0.5);
+}

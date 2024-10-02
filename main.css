@@ -72,6 +72,7 @@
     
 }
 .btn-teste, .btn-visite{ 
+    border-radius: .3rem;
     z-index: 2; 
     padding: 1.3rem 4.4rem;
     font-family: JMEB;
@@ -93,6 +94,7 @@
     right: 57%;
 }
 .btn-teste:hover, .btn-visite:hover{
+    transition: all .3s ease-in;
     font-family: JMEB;
     border: #FFB300 solid .1rem;
     color: #FFB300;

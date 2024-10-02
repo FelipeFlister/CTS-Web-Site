@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="noticias.css">
     <link rel="stylesheet" href="ajuda.css">
+    <link rel="stylesheet" href="footer.css">
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,15 +29,15 @@
             <ul class="nav">
                 <li>
                     <a href="#" class="Nav-Jogos">Jogos</a>
-                    <i class="material-icons">keyboard_arrow_down</i>
+                    <i class="material-icons" class="Nav-Jogos">keyboard_arrow_down</i>
                 </li>
                 <li>
                     <a href="#" class="Nav-Sobre">Sobre</a>
-                    <i class="material-icons">keyboard_arrow_down</i>
+                    <i class="material-icons" class="Nav-Sobre">keyboard_arrow_down</i>
                 </li>
                 <li>
                     <a href="#"class="Nav-Apoiar">Apoiar</a>
-                    <i class="material-icons">keyboard_arrow_down</i>
+                    <i class="material-icons" class="Nav-Apoiar">keyboard_arrow_down</i>
                 </li>
             </ul>
         </nav>
@@ -107,28 +108,29 @@
                 <h2 id="titulo">Nos Ajudem</h2>
                 <p id="texto-ajuda">Para que possamos continuar a desenvolver nossas obras, precisamos de sua ajuda!</p>
                 <div id="btn-ajuda">
-                    <button>Ajude Doando</button>
-                    <img src="assets/img/LogDoar.png" alt="" id="img-doar">
-                    <button>Ajude no Discord</button>
-                    <img src="assets/img/LogDiscord.png" alt="" id="img-discord">
+                    <button id="btn-doar">Ajude Doando</button>                    
+                    <button id="btn-discord">Ajude no Discord</button>            
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <img src="assets/img/ImgTecnologia.png" alt="">
+        <div id="textura">
+            <img src="assets/img/ImgTecnologia.png" alt="">
+        </div>
+        
         <section>
-            <ul>
-                <li>
-                    <span>Jogos</span>
-                    <div>
+            <ul id="nav-footer">
+                <li id="col-jogos">
+                    <span id="titulo-jogos">Jogos</span>
+                    <div id="link-1">
                         <span>Return Of The Eden</span>
                         <i class="material-icons">open_in_new</i>
                     </div>
                 </li>
-                <li>
-                    <span>Nosso Grupo</span>
-                    <ul>
+                <li id="col-grupo">
+                    <span id="titulo-grupos">Nosso Grupo</span>
+                    <ul id="link-2">
                         <li>
                             <div>
                                 <span>Sobre Nós</span>
@@ -143,15 +145,15 @@
                         </li>
                         <li>
                             <div>
-                                <span>Ajudem-nos</span>
+                                <span id="titulo-ajudem">Ajudem-nos</span>
                                 <i class="material-icons">open_in_new</i>
                             </div>
                         </li>
                     </ul>                    
                 </li>
-                <li>
-                    <span>Ajudem-nos</span>
-                    <ul>
+                <li id="col-ajudem">
+                    <span id="titulo-ajudem">Ajudem-nos</span>
+                    <ul id="link-3">
                         <li>
                             <div>
                                 <span>Doação</span>

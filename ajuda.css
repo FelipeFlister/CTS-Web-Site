@@ -31,17 +31,28 @@
     width: 45rem;
 } 
 #btn-ajuda button{
+    border-radius: .3rem;
+    position: absolute;
     color: white;
-    font-family: AC;
+    font-family: JMEB;
     font-size: 1.5rem;
     background-color: rgba(255, 255, 255, 0.36);
-    border: white solid .2rem;
+    border: white solid .1rem;
     padding: 1.3rem 4.4rem;
     text-transform: uppercase;
+    top: 190%;
 }
 #btn-ajuda button:hover{
+    transition: all .3s ease-in;
     color: #FFB300;
     background-color: rgba(255, 179, 0, 0.36);
-    border: #FFB300 solid .2rem;
+    border: #FFB300 solid .1rem;
 }
+#btn-doar{
+    margin-left: 65rem;
+}
+#btn-discord{
+    right: 5%;
+}
+
 
