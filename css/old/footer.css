@@ -1,79 +1,63 @@
-footer{
+footer {
     background-color: black;
     margin-top: -.2rem;
     color: white;
     height: 100%;
     width: 100%;
 }
-#textura{
+
+#textura {
     background-image: url(assets/img/ImgTecnologia.png);
     background-repeat: repeat-x;
     background-size: 35rem 100%;
     width: 100%;
     height: 100%;
     opacity: 30%;
-    transform: scaleY(-1);;
+    transform: scaleY(-1);
 }
-#col-jogos{
+
+#colf-jogos,
+#colf-grupo,
+#colf-ajuda {
     position: absolute;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-    margin-left: 5rem;
-    top: 215%;
+    margin-left: 5rem; /* Default margin for jogos */
+    top: 203%;
     row-gap: 1rem;
 }
-#nav-footer{
+
+#colf-grupo {
+    margin-left: 28rem; /* Specific margin for grupo */
+}
+
+#colf-ajuda {
+    margin-left: 46rem; /* Specific margin for ajuda */
+}
+
+#titf-jogos,
+#titf-grupos,
+#titf-ajuda {
+    font-family: JMEB;
+    font-weight: 120;
+    text-transform: uppercase;
+}
+
+#listf-jogos,
+#listf-grupo,
+#listf-ajuda {
+    font-family: JMM;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#navf {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-#titulo-jogos{
-    font-family: JMEB;
-    font-weight: 120;
-    text-transform: uppercase;
-}
-#link-1{
-    font-family: JMM;
-    color: rgba(255, 255, 255, 0.5);
-}
-#col-grupo{
-    position: absolute;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    margin-left: 28rem;
-    top: 215%;
-    row-gap: 1rem;
-}
-#titulo-grupos{
-    font-family: JMEB;
-    font-weight: 120;
-    text-transform: uppercase;
-}
-#link-2{
-    font-family: JMM;
-    color: rgba(255, 255, 255, 0.5);
-}
-#col-ajudem{
-    position: absolute;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    margin-left: 46rem;
-    top: 215%;
-    row-gap: 1rem;
-}
-#titulo-ajudem{
-    font-family: JMEB;
-    font-weight: 120;
-    text-transform: uppercase;
-}
-#link-3{
-    font-family: JMM;
-    color: rgba(255, 255, 255, 0.5);
-}
-#redes{
+
+#redesf {
     position: absolute;
     color: white;
     font-family: JM;
@@ -83,41 +67,49 @@ footer{
     flex-direction: column;
     justify-content: center;
     margin-left: 90rem;
-    top: 215%;
+    top: 203%;
     row-gap: 1rem;
 }
-#redes img{
+
+#redesf img {
     height: 3rem;
     width: 3rem;
 }
-#logo-youtube img{
+
+#logf {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin-left: -.2rem;
+}
+
+#logf-youtube img {
     height: 3rem;
     width: 4rem;
     top: 210%;
 }
-#logos{
-    display: flex;
-    flex-direction: row;
-    column-gap: 2rem;
-    margin-left: -1rem;
-}
-#logo-discord {
-    width: 5rem;
-}
-.loh-header{
-    align-items: center;
-}
-#log-dragao-f{
+
+#logf-dragao {
     height: 6rem;
     width: 5rem;
     margin: 1rem 0;
 }
-#log-cts-f{
+
+#logf-ctts {
     height: 5rem;
     width: 11rem;
     margin: 1rem 0 4rem 1rem; 
 }
-#logo-footer{
+
+#logf-discord {
+    width: 5rem;
+}
+
+.logf {
+    align-items: center;
+}
+
+#logf-cts {
     display: flex;
     flex-direction: row;
     justify-content: center;

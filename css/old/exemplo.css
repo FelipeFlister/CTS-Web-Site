@@ -1,0 +1,27 @@
+/* Definindo a cor padrão do ícone */
+.nav-jogos i {
+    color: rgba(255, 255, 255, 0.5); /* Cinza */
+}
+
+/* Efeito de hover para o item de navegação */
+.nav-jogos:hover a, 
+.nav-jogos:hover i {
+    color: white; /* Muda a cor do texto e do ícone para branco ao passar o mouse */
+}
+
+/* Efeito de clique ativo para o item de navegação */
+.nav-jogos:active {
+    color: #FFB300; /* Muda a cor quando está ativo */
+}
+
+/* Efeito de hover para outros itens de navegação */
+.Nav-Sobre:hover,
+.Nav-Apoiar:hover {
+    color: white;
+}
+
+/* Efeito de clique ativo para outros itens de navegação */
+.Nav-Sobre:active,
+.Nav-Apoiar:active {
+    color: #FFB300;
+}

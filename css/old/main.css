@@ -1,115 +1,101 @@
-.jogo-principal {
+#jogo-principal {
     position: relative; /* Para posicionar os elementos dentro dele */
 }
-.fundo {
+#imgm-fundo {
+    z-index: 0;
+    margin-top: -.1rem;
     width: 100%;
     height: 75rem;
     object-fit: cover; /* Fixa a imagem dentro do contêiner */
 }
-.logo{
-    height: 25rem;
-    width: 25rem;
+#logm-game{
+    height: 18rem;
+    width: 18rem;
     position: absolute;
     z-index: 1;
-    top: 10%;
-    margin-left: 16rem;
+    top: 20%;
+    margin-left: 20rem;
 }
-.logo{
+#logm-game{
     color: white;
 }
-.nome-2{
-    font-size: 10rem;
+#logm-pt2{
+    font-size: 5rem;
     font-weight: 600;
 }
-.nome-1, .nome-2 {
+#logm-pt1, #logm-pt2{
     position: absolute; /* Adicionando posição absoluta */
     color: white; /* Certificando que a cor é branca */
     z-index: 2; /* Mais alto para estar acima da imagem de fundo */
     font-family: RQ; 
 }
-.nome-1{
+#logm-pt1{
     top: 45%;
     font-weight: 50;
-    font-size: 2.15rem;
-    margin-left: 14rem;
+    font-size: 1.3rem;
+    margin-left: 18.5rem;
     margin-bottom: -4rem;
     display: flex;
     flex-direction: column;
     letter-spacing: .4rem;
     
 }
-.nome-2{
+#logm-pt2{
     top: 47%;
     font-weight: 900;
-    font-size: 7.5rem;
-    margin-left: 14rem;
+    font-size: 5rem;
+    margin-left: 18.5rem;
     display: flex;
     flex-direction: column;
     
 }
-.sinopse-1, .sinopse-2{
+#sinm-pt1, #sinm-pt2{
     color: white;
     font-family: AC;
     position: absolute;
     z-index: 2;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     word-spacing: 1rem;
     letter-spacing: .2rem;
 }
-.sinopse-1{
-    top: 64%;
-    margin-left: 12rem;
-}
-.sinopse-2{
-    top: 66%;
+#sinm-pt1{
+    top: 60%;
     margin-left: 14rem;
 }
-.btns{
+#sinm-pt2{
+    top: 62.5%;
+    margin-left: 17rem;
+}
+#btnm-principal{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* column-gap: 10rem; */
-    
 }
-.btn-teste, .btn-visite{ 
+#btnm-teste, #btnm-visite{ 
     border-radius: .3rem;
     z-index: 2; 
-    padding: 1.3rem 4.4rem;
+    padding: 1rem 3.4rem;
     font-family: JMEB;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border: white solid .1rem;
     color: white;
     background-color: rgba(255, 255, 255, 0.36);
     text-transform: uppercase;
+    top: 70%;
 }
-.btn-teste{
-    margin-left: 7rem;
+#btnm-teste{
+    margin-left: 11rem;
     position: absolute;
-    top: 73%;
 }
-.btn-visite{
+#btnm-visite{
     margin-left: 3rem;
     position: absolute;
-    top: 73%;
-    right: 57%;
+    margin-left: 30rem;
 }
-.btn-teste:hover, .btn-visite:hover{
+#btnm-teste:hover, #btnm-visite:hover{
     transition: all .3s ease-in;
     font-family: JMEB;
     border: #FFB300 solid .1rem;
     color: #FFB300;
     background-color: hsla(42, 100%, 50%, 0.36)
-}
-/*-------------------------------------------------------------------------*/
-.titulo-noticias{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 2rem;
-    color: white;
-    font-size: 2rem;
-    font-family: AC;
-    text-transform: uppercase;
-
 }

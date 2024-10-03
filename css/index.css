@@ -1,0 +1,387 @@
+/*--------------------------------------------------------------------Header-----------------------------------------------------------------------------------------------------*/
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: .2rem solid #FFB300;
+    z-index: 1;
+    position: absolute;
+}
+
+/* Logo */
+#log-header {
+    align-items: center;
+}
+
+#log-dragao {
+    height: 5rem;
+    width: 4rem;
+    margin: .5rem 0;
+}
+
+#log-cts {
+    height: 4rem;
+    width: 10rem;
+    margin: 1rem 0 1rem 1rem;
+}
+
+/* Navegação */
+nav {
+    margin-left: 30rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: JM;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+#nav-jogos i,
+#nav-sobre i,
+#nav-apoiar i {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Efeitos de Hover */
+#nav-jogos:hover a,
+#nav-jogos:hover i,
+#nav-sobre:hover a,
+#nav-sobre:hover i,
+#nav-apoiar:hover a,
+#nav-apoiar:hover i {
+    color: white;
+}
+
+/* Efeitos de Atividade */
+#nav-jogos:active a,
+#nav-jogos:active i,
+#nav-sobre:active a,
+#nav-sobre:active i,
+#nav-apoiar:active a,
+#nav-apoiar:active i {
+    color: #FFB300;
+}
+/*--------------------------------------------------------------------Header-----------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------Main-------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------Jogo-------------------------------------------------------------------------------------------------------*/
+/* Jogo Principal */
+#jogo-principal {
+    position: relative; /* Para posicionar os elementos dentro dele */
+}
+
+/* Imagem de Fundo */
+#imgm-fundo {
+    z-index: 0;
+    margin-top: -.1rem;
+    width: 100%;
+    height: 75rem;
+    object-fit: cover; /* Fixa a imagem dentro do contêiner */
+}
+
+/* Logotipo do Jogo */
+#logm-game {
+    height: 18rem;
+    width: 18rem;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    margin-left: 20rem;
+    color: white;
+}
+
+/* Texto do Logotipo */
+#logm-pt1, #logm-pt2 {
+    position: absolute; /* Adicionando posição absoluta */
+    color: white; /* Certificando que a cor é branca */
+    z-index: 2; /* Mais alto para estar acima da imagem de fundo */
+    font-family: RQ; 
+}
+
+#logm-pt1 {
+    top: 45%;
+    font-weight: 50;
+    font-size: 1.3rem;
+    margin-left: 18.5rem;
+    margin-bottom: -4rem;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .4rem;
+}
+
+#logm-pt2 {
+    font-size: 5rem;
+    font-weight: 900;
+    top: 47%;
+    margin-left: 18.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Texto Secundário */
+#sinm-pt1, #sinm-pt2 {
+    color: white;
+    font-family: AC;
+    position: absolute;
+    z-index: 2;
+    font-size: 1.3rem;
+    word-spacing: 1rem;
+    letter-spacing: .2rem;
+}
+
+#sinm-pt1 {
+    top: 60%;
+    margin-left: 14rem;
+}
+
+#sinm-pt2 {
+    top: 62.5%;
+    margin-left: 17rem;
+}
+
+/* Botões Principais */
+#btnm-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#btnm-teste, #btnm-visite { 
+    border-radius: .3rem;
+    z-index: 2; 
+    padding: 1rem 3.4rem;
+    font-family: JMEB;
+    font-size: 1.3rem;
+    border: white solid .1rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.36);
+    text-transform: uppercase;
+    top: 70%;
+}
+
+#btnm-teste {
+    margin-left: 11rem;
+    position: absolute;
+}
+
+#btnm-visite {
+    margin-left: 30rem;
+    position: absolute;
+}
+
+/* Efeitos de Hover nos Botões */
+#btnm-teste:hover, #btnm-visite:hover {
+    transition: all .3s ease-in;
+    border: #FFB300 solid .1rem;
+    color: #FFB300;
+    background-color: hsla(42, 100%, 50%, 0.36);
+}
+
+/*--------------------------------------------------------------------Jogo-------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------Ajuda------------------------------------------------------------------------------------------------------*/
+#imgm-doacao {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    border-top: .2rem solid #FFB300;
+    border-bottom: .2rem solid #FFB300;
+    margin-top: -.2rem;
+}
+
+/* Título da Ajuda */
+#titm-ajuda {
+    position: absolute;
+    color: #FFB300;
+    font-family: JM;
+    font-weight: 200;
+    font-size: 3rem;
+    z-index: 2;
+    top: 153%;
+    margin: 0 0 0 10rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+
+/* Texto da Ajuda */
+#texm-ajuda {
+    position: absolute;
+    color: white;
+    font-family: AC;
+    font-weight: 100;
+    font-size: 2rem;
+    z-index: 2;
+    top: 164%;
+    margin: 0 0 0 10rem;
+    width: 45rem;
+}
+
+/* Botão da Ajuda */
+#btnm-ajuda button {
+    position: absolute;
+    border-radius: .3rem;
+    color: white;
+    font-family: JMEB;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.36);
+    border: white solid .1rem;
+    padding: 1.3rem 4.4rem;
+    text-transform: uppercase;
+    top: 180%;
+}
+
+/* Efeito de Hover no Botão da Ajuda */
+#btnm-ajuda button:hover {
+    transition: all .3s ease-in;
+    color: #FFB300;
+    background-color: rgba(255, 179, 0, 0.36);
+    border: #FFB300 solid .1rem;
+}
+
+/* Botão Doar */
+#btnm-doar {
+    margin-left: 65rem;
+}
+
+/* Botão Discord */
+#btnm-discord {
+    right: 5%;
+}
+/*--------------------------------------------------------------------Ajuda------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------Main-------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------Footer-----------------------------------------------------------------------------------------------------*/
+footer {
+    background-color: black;
+    margin-top: -.2rem;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+/* Textura de Fundo */
+#textura {
+    background-image: url(../assets/img/ImgTecnologia.png);
+    background-repeat: repeat-x;
+    background-size: 35rem 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+    transform: scaleY(-1);
+}
+
+/* Colunas do Footer */
+#colf-jogos,
+#colf-grupo,
+#colf-ajuda {
+    position: absolute;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem; /* Margem padrão para jogos */
+    top: 203%;
+    row-gap: 1rem;
+}
+
+#colf-grupo {
+    margin-left: 28rem; /* Margem específica para grupo */
+}
+
+#colf-ajuda {
+    margin-left: 46rem; /* Margem específica para ajuda */
+}
+
+/* Títulos das Colunas */
+#titf-jogos,
+#titf-grupos,
+#titf-ajuda {
+    font-family: JMEB;
+    font-weight: 120;
+    text-transform: uppercase;
+}
+
+/* Listas das Colunas */
+#listf-jogos,
+#listf-grupo,
+#listf-ajuda {
+    font-family: JMM;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Navegação do Footer */
+#navf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Redes Sociais */
+#redesf {
+    position: absolute;
+    color: white;
+    font-family: JM;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90rem;
+    top: 203%;
+    row-gap: 1rem;
+}
+
+#redesf img {
+    height: 3rem;
+    width: 3rem;
+}
+
+/* Logotipo do Footer */
+#logf {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin-left: -.2rem;
+}
+
+#logf-youtube img {
+    height: 3rem;
+    width: 4rem;
+    top: 210%;
+}
+
+#logf-dragao {
+    height: 6rem;
+    width: 5rem;
+    margin: 1rem 0;
+}
+
+#logf-ctts {
+    height: 5rem;
+    width: 11rem;
+    margin: 1rem 0 4rem 1rem; 
+}
+
+#logf-discord {
+    width: 5rem;
+}
+
+/* Estilo do Logotipo */
+.logf {
+    align-items: center;
+}
+
+#logf-cts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+}
+/*--------------------------------------------------------------------Footer-----------------------------------------------------------------------------------------------------*/

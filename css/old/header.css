@@ -1,68 +1,70 @@
-
-
-
-
-
-header{
+header {
     background-color: black;
     width: 100%;    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border-bottom: .2rem solid #FFB300;
+    z-index: 1;
+    position: absolute;
 }
-
-
-
-.loh-header{
+/* Logo */
+#log-header {
     align-items: center;
 }
-.log-dragao{
+
+#log-dragao {
     height: 5rem;
     width: 4rem;
     margin: .5rem 0;
 }
-.log-cts{
+
+#log-cts {
     height: 4rem;
     width: 10rem;
     margin: 1rem 0 1rem 1rem; 
 }
-nav{
+/* Navegation */
+nav {
+    margin-left: 30rem;
     display: flex;
-    justify-content: space-between;
-    color: rgba(255, 255, 255, 0.5);
+    justify-content: end;
     align-items: center;    
     font-family: JM;
     text-transform: uppercase;
     font-size: 1.5rem;
 }
-.nav{
+
+#nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
     column-gap: 2rem;
 }
 
-.conta{
+#nav-jogos i,
+#nav-sobre i,
+#nav-apoiar i {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Hover Effects */
+#nav-jogos:hover a,
+#nav-jogos:hover i,
+#nav-sobre:hover a,
+#nav-sobre:hover i,
+#nav-apoiar:hover a,
+#nav-apoiar:hover i {
     color: white;
 }
 
-.Nav-Jogos:hover{
-    color: white;
-}
-.Nav-Jogos:active{
-    color: #FFB300;
-}
-.Nav-Sobre:hover{
-    color: white;
-}
-.Nav-Sobre:active{
-    color: #FFB300;
-}
-.Nav-Apoiar:hover{
-    color: white;
-}
-.Nav-Apoiar:active{
+/* Active Effects */
+#nav-jogos:active a,
+#nav-jogos:active i,
+#nav-sobre:active a,
+#nav-sobre:active i,
+#nav-apoiar:active a,
+#nav-apoiar:active i {
     color: #FFB300;
 }

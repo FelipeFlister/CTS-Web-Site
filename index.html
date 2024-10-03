@@ -2,13 +2,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="header.css">
+    <!-- <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="noticias.css">
     <link rel="stylesheet" href="ajuda.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="footer.css"> -->
+    <link rel="stylesheet" href="css/index.css">
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,44 +22,46 @@
 </head>
 <body>
     <header>
-        <div class="log-header">
-            <img src="assets/img/LogDragao.png" alt="" class="log-dragao">
-            <img src="assets/img/LogCTS.png" alt="" class="log-cts">
-        </div>
+        <a href="index.html">
+            <div id="log-header">
+                <img src="assets/img/LogDragao.png" alt="" id="log-dragao">
+                <img src="assets/img/LogCTS.png" alt="" id="log-cts">
+            </div>
+        </a>
         <nav>
-            <ul class="nav">
-                <li>
-                    <a href="#" class="Nav-Jogos">Jogos</a>
-                    <i class="material-icons" class="Nav-Jogos">keyboard_arrow_down</i>
+            <ul id="nav">
+                <li id="nav-jogos">
+                    <a href="#" >Jogos</a>
+                    <i class="material-icons">keyboard_arrow_down</i>
                 </li>
-                <li>
-                    <a href="#" class="Nav-Sobre">Sobre</a>
-                    <i class="material-icons" class="Nav-Sobre">keyboard_arrow_down</i>
+                <li id="nav-sobre">
+                    <a href="#">Sobre</a>
+                    <i class="material-icons">keyboard_arrow_down</i>
                 </li>
-                <li>
-                    <a href="#"class="Nav-Apoiar">Apoiar</a>
-                    <i class="material-icons" class="Nav-Apoiar">keyboard_arrow_down</i>
+                <li id="nav-apoiar">
+                    <a href="#">Apoiar</a>
+                    <i class="material-icons">keyboard_arrow_down</i>
                 </li>
             </ul>
         </nav>
-        <div class="conta">
+        <!-- <div class="conta">
             <img src="" alt="">
             <span>Contas</span>
             <i class="material-icons">keyboard_arrow_down</i>
-        </div>
+        </div> -->
     </header>
     <main>
-        <section class="jogo-principal">
+        <section id="jogo-principal">
             <div> 
-                <img src="assets/img/LogGame.png" alt="" class="logo">
-                <img src="assets/img/ImgTaiga.png" alt="" class="fundo">  
-                <span class="nome-1">Return of the</span>
-                <span class="nome-2">Eden</span>
-                <p class="sinopse-1">Prepare-se para explorar o paraíso</p>
-                <p class="sinopse-2">devastado do planeta Aqua.</p>
-                <div class="btns">
-                    <button class="btn-teste">Teste o Jogo</button>
-                    <button class="btn-visite">Visite o Site</button>
+                <img src="assets/img/LogGame.png" alt="" id="logm-game">
+                <img src="assets/img/ImgTaiga.png" alt="" id="imgm-fundo">  
+                <span id="logm-pt1">Return of the</span>
+                <span id="logm-pt2">Eden</span>
+                <p id="sinm-pt1">Prepare-se para explorar o paraíso</p>
+                <p id="sinm-pt2">devastado do planeta Aqua.</p>
+                <div id="btnm-principal">
+                    <button id="btnm-teste">Teste o Jogo</button>
+                    <button id="btnm-visite">Visite o Site</button>
                 </div>
             </div>
         </section>        
@@ -103,13 +106,13 @@
             </div>
         </section> -->
         <section>
-            <img src="assets/img/ImgDoacao.jpg" alt="" id="img-doacao">
+            <img src="assets/img/ImgDoacao.jpg" alt="" id="imgm-doacao">
             <div>
-                <h2 id="titulo">Nos Ajudem</h2>
-                <p id="texto-ajuda">Para que possamos continuar a desenvolver nossas obras, precisamos de sua ajuda!</p>
-                <div id="btn-ajuda">
-                    <button id="btn-doar">Ajude Doando</button>                    
-                    <button id="btn-discord">Ajude no Discord</button>            
+                <h2 id="titm-ajuda">Nos Ajudem</h2>
+                <p id="texm-ajuda">Para que possamos continuar a desenvolver nossas obras, precisamos de sua ajuda!</p>
+                <div id="btnm-ajuda">
+                    <button id="btnm-doar">Ajude Doando</button>                    
+                    <button id="btnm-discord">Ajude no Discord</button>            
                 </div>
             </div>
         </section>
@@ -118,19 +121,18 @@
         <div id="textura">
             <img src="assets/img/ImgTecnologia.png" alt="">
         </div>
-        
         <section>
-            <ul id="nav-footer">
-                <li id="col-jogos">
-                    <span id="titulo-jogos">Jogos</span>
-                    <div id="link-1">
+            <ul id="navf">
+                <li id="colf-jogos">
+                    <span id="titf-jogos">Jogos</span>
+                    <div id="listf-jogos">
                         <span>Return Of The Eden</span>
                         <i class="material-icons">open_in_new</i>
                     </div>
                 </li>
-                <li id="col-grupo">
-                    <span id="titulo-grupos">Nosso Grupo</span>
-                    <ul id="link-2">
+                <li id="colf-grupo">
+                    <span id="titf-grupos">Nosso Grupo</span>
+                    <ul id="listf-grupos">
                         <li>
                             <div>
                                 <span>Sobre Nós</span>
@@ -151,9 +153,9 @@
                         </li>
                     </ul>                    
                 </li>
-                <li id="col-ajudem">
-                    <span id="titulo-ajudem">Ajudem-nos</span>
-                    <ul id="link-3">
+                <li id="colf-ajuda">
+                    <span id="titf-ajuda">Ajudem-nos</span>
+                    <ul id="listf-ajuda">
                         <li>
                             <div>
                                 <span>Doação</span>
@@ -170,19 +172,19 @@
                 </li>
             </ul>
         </section>
-        <section id="redes">
+        <section id="redesf">
             <span>Siga a gente por meio do:</span>
-            <div id="logos">
-                <a href=""  id="logo-youtube"><img src="assets/img/LogYoutube.png" alt=""></a>
+            <div id="logf">
+                <a href=""><img src="assets/img/LogYoutube.png" alt="" id="logf-youtube"></a>
                 <a href=""><img src="assets/img/LogInstagram.png" alt=""></a>
                 <a href=""><img src="assets/img/LogTikTok.png" alt=""></a>
                 <a href=""><img src="assets/img/LogBlueSky.png" alt=""></a>
-                <a href=""><img src="assets/img/LogDiscord.png" alt="" id="logo-discord"></a>
+                <a href=""><img src="assets/img/LogDiscord.png" alt="" id="logf-discord"></a>
             </div>            
         </section>
-        <div id="logo-footer">
-            <img src="assets/img/LogDragao.png" alt="" id="log-dragao-f">
-            <img src="assets/img/LogCTS.png" alt="" id="log-cts-f">
+        <div id="logf-cts">
+            <img src="assets/img/LogDragao.png" alt="" id="logf-dragao">
+            <img src="assets/img/LogCTS.png" alt="" id="logf-ctts">
         </div>
     </footer>
 </body>

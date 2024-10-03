@@ -1,38 +1,41 @@
-#img-doacao{
+#imgm-doacao {
     position: relative;
     width: 100%;
-    object-fit: cover;
     height: 40rem;
+    object-fit: cover;
     border-top: .2rem solid #FFB300;
     border-bottom: .2rem solid #FFB300;
     margin-top: -.2rem;
 }
-#titulo{
+
+#titm-ajuda {
     position: absolute;
     color: #FFB300;
     font-family: JM;
     font-weight: 200;
     font-size: 3rem;
     z-index: 2;
-    top: 163%;
+    top: 153%;
     margin: 0 0 0 10rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
 }
-#texto-ajuda{
+
+#texm-ajuda {
     position: absolute;
     color: white;
     font-family: AC;
-    font-size: 2rem;
     font-weight: 100;
-    top: 174%;
+    font-size: 2rem;
     z-index: 2;
+    top: 164%;
     margin: 0 0 0 10rem;
     width: 45rem;
-} 
-#btn-ajuda button{
-    border-radius: .3rem;
+}
+
+#btnm-ajuda button {
     position: absolute;
+    border-radius: .3rem;
     color: white;
     font-family: JMEB;
     font-size: 1.5rem;
@@ -40,19 +43,20 @@
     border: white solid .1rem;
     padding: 1.3rem 4.4rem;
     text-transform: uppercase;
-    top: 190%;
+    top: 180%;
 }
-#btn-ajuda button:hover{
+
+#btnm-ajuda button:hover {
     transition: all .3s ease-in;
     color: #FFB300;
     background-color: rgba(255, 179, 0, 0.36);
     border: #FFB300 solid .1rem;
 }
-#btn-doar{
+
+#btnm-doar {
     margin-left: 65rem;
 }
-#btn-discord{
+
+#btnm-discord {
     right: 5%;
 }
-
-

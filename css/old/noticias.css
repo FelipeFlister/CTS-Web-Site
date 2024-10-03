@@ -1,3 +1,15 @@
+/* #titulo-noticias{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+    color: white;
+    font-size: 2rem;
+    font-family: AC;
+    text-transform: uppercase; 
+
+}*/
 /* .caixas{
     margin-top: 2rem;
     display: flex;
