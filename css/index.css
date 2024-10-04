@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------Header-----------------------------------------------------------------------------------------------------*/
 header {
     background-color: black;
-    width: 100%;
+    width: 100%;    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -10,7 +10,6 @@ header {
     position: absolute;
 }
 
-/* Logo */
 #log-header {
     align-items: center;
 }
@@ -24,15 +23,14 @@ header {
 #log-cts {
     height: 4rem;
     width: 10rem;
-    margin: 1rem 0 1rem 1rem;
+    margin: 1rem 0 1rem 1rem; 
 }
 
-/* Navegação */
 nav {
     margin-left: 30rem;
     display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: center;    
     font-family: JM;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -46,49 +44,50 @@ nav {
     column-gap: 2rem;
 }
 
-#nav-jogos i,
-#nav-sobre i,
-#nav-apoiar i {
-    color: rgba(255, 255, 255, 0.5);
+#nav-jogos img,
+#nav-sobre img,
+#nav-apoiar img {
+    opacity: 50%;
 }
 
-/* Efeitos de Hover */
+#nav img{
+    height: 1rem;
+    width: 1.3rem;
+    opacity: 50%;
+}
+
 #nav-jogos:hover a,
-#nav-jogos:hover i,
+#nav-jogos:hover img,
 #nav-sobre:hover a,
-#nav-sobre:hover i,
+#nav-sobre:hover img,
 #nav-apoiar:hover a,
-#nav-apoiar:hover i {
+#nav-apoiar:hover img {
+    transition: all .2s ease-in;
     color: white;
+    opacity: 100%;
 }
 
-/* Efeitos de Atividade */
 #nav-jogos:active a,
 #nav-jogos:active i,
 #nav-sobre:active a,
-#nav-sobre:active i,
-#nav-apoiar:active a,
-#nav-apoiar:active i {
+#nav-apoiar:active a{
     color: #FFB300;
 }
 /*--------------------------------------------------------------------Header-----------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------Main-------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------Jogo-------------------------------------------------------------------------------------------------------*/
-/* Jogo Principal */
 #jogo-principal {
-    position: relative; /* Para posicionar os elementos dentro dele */
+    position: relative;
 }
 
-/* Imagem de Fundo */
 #imgm-fundo {
     z-index: 0;
     margin-top: -.1rem;
     width: 100%;
     height: 75rem;
-    object-fit: cover; /* Fixa a imagem dentro do contêiner */
+    object-fit: cover;
 }
 
-/* Logotipo do Jogo */
 #logm-game {
     height: 18rem;
     width: 18rem;
@@ -99,11 +98,10 @@ nav {
     color: white;
 }
 
-/* Texto do Logotipo */
 #logm-pt1, #logm-pt2 {
-    position: absolute; /* Adicionando posição absoluta */
-    color: white; /* Certificando que a cor é branca */
-    z-index: 2; /* Mais alto para estar acima da imagem de fundo */
+    position: absolute;
+    color: white;
+    z-index: 2;
     font-family: RQ; 
 }
 
@@ -119,15 +117,14 @@ nav {
 }
 
 #logm-pt2 {
-    font-size: 5rem;
-    font-weight: 900;
     top: 47%;
+    font-weight: 900;
+    font-size: 5rem;
     margin-left: 18.5rem;
     display: flex;
     flex-direction: column;
 }
 
-/* Texto Secundário */
 #sinm-pt1, #sinm-pt2 {
     color: white;
     font-family: AC;
@@ -148,7 +145,6 @@ nav {
     margin-left: 17rem;
 }
 
-/* Botões Principais */
 #btnm-principal {
     display: flex;
     flex-direction: row;
@@ -178,9 +174,9 @@ nav {
     position: absolute;
 }
 
-/* Efeitos de Hover nos Botões */
 #btnm-teste:hover, #btnm-visite:hover {
-    transition: all .3s ease-in;
+    transition: all .2s ease-in;
+    font-family: JMEB;
     border: #FFB300 solid .1rem;
     color: #FFB300;
     background-color: hsla(42, 100%, 50%, 0.36);
@@ -198,7 +194,6 @@ nav {
     margin-top: -.2rem;
 }
 
-/* Título da Ajuda */
 #titm-ajuda {
     position: absolute;
     color: #FFB300;
@@ -212,7 +207,6 @@ nav {
     letter-spacing: .3rem;
 }
 
-/* Texto da Ajuda */
 #texm-ajuda {
     position: absolute;
     color: white;
@@ -225,7 +219,6 @@ nav {
     width: 45rem;
 }
 
-/* Botão da Ajuda */
 #btnm-ajuda button {
     position: absolute;
     border-radius: .3rem;
@@ -239,20 +232,17 @@ nav {
     top: 180%;
 }
 
-/* Efeito de Hover no Botão da Ajuda */
 #btnm-ajuda button:hover {
-    transition: all .3s ease-in;
+    transition: all .2s ease-in;
     color: #FFB300;
     background-color: rgba(255, 179, 0, 0.36);
     border: #FFB300 solid .1rem;
 }
 
-/* Botão Doar */
 #btnm-doar {
     margin-left: 65rem;
 }
 
-/* Botão Discord */
 #btnm-discord {
     right: 5%;
 }
@@ -267,9 +257,8 @@ footer {
     width: 100%;
 }
 
-/* Textura de Fundo */
 #textura {
-    background-image: url(../assets/img/ImgTecnologia.png);
+    background-image: url("../assets/img/ImgTecnologia.png");
     background-repeat: repeat-x;
     background-size: 35rem 100%;
     width: 100%;
@@ -278,7 +267,13 @@ footer {
     transform: scaleY(-1);
 }
 
-/* Colunas do Footer */
+.logf-abrir-novo {
+    height: 1rem;
+    width: 1rem;
+    margin-left: -.5rem;
+    opacity: 50%;
+}
+
 #colf-jogos,
 #colf-grupo,
 #colf-ajuda {
@@ -286,20 +281,19 @@ footer {
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-    margin-left: 5rem; /* Margem padrão para jogos */
+    margin-left: 5rem;
     top: 203%;
     row-gap: 1rem;
 }
 
 #colf-grupo {
-    margin-left: 28rem; /* Margem específica para grupo */
+    margin-left: 28rem;
 }
 
 #colf-ajuda {
-    margin-left: 46rem; /* Margem específica para ajuda */
+    margin-left: 46rem;
 }
 
-/* Títulos das Colunas */
 #titf-jogos,
 #titf-grupos,
 #titf-ajuda {
@@ -308,22 +302,19 @@ footer {
     text-transform: uppercase;
 }
 
-/* Listas das Colunas */
-#listf-jogos,
+#jogos,
 #listf-grupo,
 #listf-ajuda {
     font-family: JMM;
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* Navegação do Footer */
 #navf {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* Redes Sociais */
 #redesf {
     position: absolute;
     color: white;
@@ -341,9 +332,14 @@ footer {
 #redesf img {
     height: 3rem;
     width: 3rem;
+    opacity: 50%;
 }
 
-/* Logotipo do Footer */
+#redesf img:hover{
+    transition: all .2s ease-in;
+    opacity: 100%;
+}
+
 #logf {
     display: flex;
     flex-direction: row;
@@ -373,7 +369,6 @@ footer {
     width: 5rem;
 }
 
-/* Estilo do Logotipo */
 .logf {
     align-items: center;
 }
@@ -383,5 +378,16 @@ footer {
     flex-direction: row;
     justify-content: center;
     padding-top: 2rem;
+}
+
+#jogos:hover, #jogos:hover img,
+#sobre-nos:hover, #sobre-nos:hover img,
+#nossa-equipe:hover, #nossa-equipe:hover img,
+#ajudem-nos:hover, #ajudem-nos:hover img,
+#doacao:hover, #doacao:hover img,
+#comunidade-discord:hover, #comunidade-discord:hover img {
+    transition: all .2s ease-in;
+    color: white;
+    opacity: 100%;
 }
 /*--------------------------------------------------------------------Footer-----------------------------------------------------------------------------------------------------*/

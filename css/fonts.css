@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'JM';
-    src: url('fonts/JetBrains_Mono/static/JetBrainsMono-Light.ttf') format('woff2'),
+    src: url('../fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf') format('woff2'),
 }
 @font-face {
     font-family: 'JMEB';
-    src: url('fonts/JetBrains_Mono/static/JetBrainsMono-ExtraBold.ttf') format('woff2'),
+    src: url('../fonts/JetBrains_Mono/static/JetBrainsMono-ExtraBold.ttf') format('woff2'),
 }
 @font-face {
     font-family: 'JMM';
-    src: url('fonts/JetBrains_Mono/static/JetBrainsMono-Medium.ttf') format('woff2'),
+    src: url('../fonts/JetBrains_Mono/static/JetBrainsMono-Medium.ttf') format('woff2'),
 }
 @font-face {
     font-family: 'RQ';
-    src: url('fonts/request/Request.otf') format('woff2'),
+    src: url('../fonts/request/Request.otf') format('woff2'),
 }
 
 @font-face {
     font-family: 'AC';
-    src: url('fonts/Archivo/static/Archivo-SemiBold.ttf') format('woff2'),
+    src: url('../fonts/Archivo/static/Archivo-SemiBold.ttf') format('woff2'),
 }
 @font-face {
     font-family: 'ACEL';
-    src: url('fonts/Archivo/static/Archivo-ExtraLight.ttf') format('woff2'),
+    src: url('../fonts/Archivo/static/Archivo-ExtraLight.ttf') format('woff2'),
 }
 

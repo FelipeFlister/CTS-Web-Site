@@ -43,20 +43,21 @@ nav {
     column-gap: 2rem;
 }
 
-#nav-jogos i,
-#nav-sobre i,
-#nav-apoiar i {
-    color: rgba(255, 255, 255, 0.5);
+#nav-jogos img,
+#nav-sobre img,
+#nav-apoiar img {
+    opacity: 50%;
 }
 
 /* Hover Effects */
 #nav-jogos:hover a,
-#nav-jogos:hover i,
+#nav-jogos:hover img,
 #nav-sobre:hover a,
-#nav-sobre:hover i,
+#nav-sobre:hover img,
 #nav-apoiar:hover a,
-#nav-apoiar:hover i {
+#nav-apoiar:hover img {
     color: white;
+    opacity: 100%;
 }
 
 /* Active Effects */
